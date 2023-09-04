@@ -1,0 +1,39 @@
+button {
+  margin: 12px;
+  height: 50px;
+  width: 120px;
+  border-radius: 10px;
+  background: #333;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444, inset -5px -5px 10px #222;
+  font-family: 'Damion', cursive;
+  border: none;
+  font-size: 16px;
+  color: rgb(161, 161, 161);
+  transition: 500ms;
+}
+
+button:hover {
+  box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222, inset -5px -5px 10px #444;
+  color: #d6d6d6;
+  transition: 500ms;
+}
+.imagens {
+  display: flex; /* Use flex para alinhar horizontalmente as imagens */
+  justify-content: space-between; /* Adicione espaço entre as imagens */
+}
+
+.imagens {
+  margin-right: 20px; /* Aumente o valor para mais espaço entre as imagens */
+}
+body {
+  margin: 100px; /* Remova as margens padrão do corpo da página */
+  padding: 0px; /* Remova o preenchimento padrão do corpo da página */
+  background-image: url("img/fundo02.jpg"); /* Substitua pelo caminho da sua imagem de fundo */
+  background-size: cover; /* A imagem cobrirá todo o corpo da página */
+  background-position: center center; /* Centraliza a imagem horizontal e verticalmente */
+  background-repeat: no-repeat; /* Impede a repetição da imagem */
+  background-attachment: fixed; /* Mantém a imagem fixa enquanto você rola a página */
+  height: 100vh; /* Defina a altura do corpo como a altura da janela do navegador */
+}
